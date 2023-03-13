@@ -9,7 +9,7 @@ buildscript {
     }
 }
 
-version "0.1"
+version "1.0.1"
 group "myplugin"
 
 apply plugin:"eclipse"
@@ -81,8 +81,10 @@ tasks.withType(GroovyCompile) {
 tasks.withType(Test) {
     useJUnitPlatform()
 }
+
 // enable if you wish to package this plugin as a standalone application
 bootJar.enabled = false
+
 
 
 assets {
