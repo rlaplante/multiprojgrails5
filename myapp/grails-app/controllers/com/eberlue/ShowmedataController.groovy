@@ -2,5 +2,9 @@ package com.eberlue
 
 class ShowmedataController {
 
-    def index() { }
+    def index() {
+
+        render "hello world"
+
+    }
 }
