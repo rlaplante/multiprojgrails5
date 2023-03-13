@@ -1,0 +1,4 @@
+rootProject.name = 'myapp'
+include 'myplugin'
+project(':myplugin').projectDir = new File('../myplugin')
+
