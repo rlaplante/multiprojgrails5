@@ -9,3 +9,13 @@ This is a tricked version, but not too dirty.
 
 Based on this dicussion https://github.com/grails/grails-core/issues/11221
 
+
+to run, just type:
+
+use the wrapper included (Gradle 7.2)
+./gradlew myapp:bootRun
+
+or if you have Gradle 7.2 already in your path
+gradle myapp:bootRun
+
+
